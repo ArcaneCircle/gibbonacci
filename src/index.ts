@@ -1,7 +1,7 @@
 import "./reset.css";
 import "./defaults.css";
 import { initMusic } from "./systems/music";
-import { el, externalLinkEl, mount, svgEl } from "./helpers/dom";
+import { el, mount } from "./helpers/dom";
 import { initState, state } from "./systems/state";
 import { SVGs } from "./systems/svgs";
 import { initFireflies } from "./components/fireflies/fireflies";
@@ -49,9 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
 				el("h2", "Enjoy the Game!"),
 				el("br"),
 				el("div.social", [
-					externalLinkEl(svgEl(SVGs.monkey, "#FBAA19"), "#"),
-					externalLinkEl(svgEl(SVGs.monkey, "#5865F2"), "#"),
-					externalLinkEl(svgEl(SVGs.monkey, "#fa5c5c"), "#"),
+					el("p", `The original game was created by Martin Tale: https://github.com/MartinTale/gibbonacci`),
 				]),
 			],
 			[
