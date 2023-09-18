@@ -46,11 +46,14 @@ export function onNumbersFoundChange() {
 
 	if (state.numbersFound.length >= maxNumbers && state.endAt === null) {
 		state.endAt = Date.now();
-        const info = `${window.webxdc.selfName} won Gibbonacci!`;
-        window.webxdc.sendUpdate({
-            payload: null,
-            info,
-        }, info);
+		const info = `${window.webxdc.selfName} won Gibbonacci!`;
+		window.webxdc.sendUpdate(
+			{
+				payload: null,
+				info,
+			},
+			info,
+		);
 		onEndChange();
 	}
 
