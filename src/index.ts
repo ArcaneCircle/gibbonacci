@@ -49,9 +49,9 @@ window.addEventListener("DOMContentLoaded", () => {
 				el("h2", "Enjoy the Game!"),
 				el("br"),
 				el("div.social", [
-					externalLinkEl(svgEl(SVGs.coffee, "#FBAA19"), "https://ko-fi.com/martintale?ref=gibbonacci"),
-					externalLinkEl(svgEl(SVGs.discord, "#5865F2"), "https://discord.gg/kPf8XwNuZT"),
-					externalLinkEl(svgEl(SVGs.itch, "#fa5c5c"), "https://martintale.itch.io/?ref=gibbonacci"),
+					externalLinkEl(svgEl(SVGs.monkey, "#FBAA19"), "#"),
+					externalLinkEl(svgEl(SVGs.monkey, "#5865F2"), "#"),
+					externalLinkEl(svgEl(SVGs.monkey, "#fa5c5c"), "#"),
 				]),
 			],
 			[
