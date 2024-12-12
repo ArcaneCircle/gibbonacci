@@ -16,5 +16,5 @@
 		"noImplicitAny": false,
 		"types": ["vite/client"]
 	},
-	"include": ["src", "webxdc.d.ts"]
+	"include": ["src"]
 }

@@ -52,7 +52,7 @@ export function onNumbersFoundChange() {
 				payload: null,
 				info,
 			},
-			info,
+			"",
 		);
 		onEndChange();
 	}
